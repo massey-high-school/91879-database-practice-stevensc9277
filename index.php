@@ -9,13 +9,13 @@
     <meta name="author" content="Put your name here">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Website Title goes here</title>
+    <title>Database Project</title>
     
     <!-- Edit the link below / replace with your chosen google font -->
     <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
     
     <!-- Edit the name of your style sheet - 'foo' is not a valid name!! -->
-    <link rel="stylesheet" href="no_side.css"> 
+    <link rel="stylesheet" href="css/bookstyle.css"> 
     
 </head>
     
@@ -30,43 +30,43 @@
         <!-- logo image linking to home page goes here -->
         <a href="index.php">
             <div class="box logo"  title="Logo - Click here to go to the Home Page">
-            <img class="img-circle" src="images/gen_logo.png" width="150" height="150" alt="generic logo" />
+            <img class="img-circle" src="Images/book.jpg" width="150" height="150" alt="generic logo" />
             
             </div>    <!-- / logo -->
         </a>
             
-            <h1>Website Name</h1>
+            <h1>Database Project</h1>
         </div>    <!-- / banner -->
 
-        <!-- Navigation goes here.  Edit BOTH the file name and the link name -->
-        <div class="box nav">
-            <a href="index.html">Home</a> | 
-            <a href="page1.html">Page 1</a> | 
-            <a href="page2.html">Page 2</a> | 
-            <a href="page3.html">Page 3</a> | 
-            <a href="contact.html">Contact</a>
-        </div>    <!-- / nav -->        
+        
+        <div class="box side">
+            Sidebar goes here
+        </div>
         
         <div class="box main">
             <h2>First Page heading</h2>
             
             <p>
-                Sugar plum powder dessert bonbon powder lollipop lollipop muffin I love. Tiramisu dessert I love sugar plum apple pie marzipan chocolate bar brownie. Pudding tiramisu caramels biscuit tiramisu. I love gummies gummies pie sweet pudding I love I love. Donut halvah candy oat cake donut. Caramels wafer danish jelly-o.
+                Welcome
             </p>
-            
-            <p>
-                Jelly beans gingerbread jelly tootsie roll. Lemon drops bear claw I love tiramisu candy canes cake. Jelly-o apple pie powder tart I    love candy tiramisu. Topping liquorice cake sesame snaps brownie. Lemon drops jelly beans brownie danish I love fruitcake cotton candy danish. Dragée pastry halvah macaroon I love chocolate bar caramels liquorice. Halvah cupcake muffin fruitcake pastry I love bear claw I love jelly. Tart chocolate bar croissant danish jelly. Sugar plum powder cupcake muffin gingerbread I love sweet.
-            </p>
-            
-            <p>
-                Biscuit jelly I love jelly-o candy canes chupa chups topping lemon drops I love. Sesame snaps macaroon lemon drops carrot cake I love. Chocolate bar gingerbread chupa chups. Dessert chocolate pastry liquorice tootsie roll lemon drops sweet macaroon liquorice. I love muffin bonbon. Cupcake apple pie chocolate cake bonbon topping. Macaroon gummi bears dragée caramels donut chocolate.
+    <p>
+
+Reading is one of life's simple pleasures. Please search the database by using the tools in the side bar. Hopefully you will find something that appeals.
+
+I must confess to having a love of Science Fiction so many of the books that I have reviewed are from that genre. The plan is to add more reviews to this site as time allows.
+
+If you'd like to suggest a book for review, please feel free to get in touch.
+
+---
+
+
             </p>
             
         </div>    <!-- / main -->
         
 
         <div class="box footer">
-            CC yourname 20XX
+            CC stevensc9277 2020
         </div>    <!-- / footer -->
     
     </div>  <!-- / wrapper  -->
