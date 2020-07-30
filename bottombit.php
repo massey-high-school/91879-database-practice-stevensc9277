@@ -17,18 +17,10 @@ I must confess to having a love of Science Fiction so many of the books that I h
 
 If you'd like to suggest a book for review, please feel free to get in touch.
 
----
-
-
-            </p>
+---       </p>
             
         </div>    <!-- / main -->
         
-
-        <div class="box footer">
-            CC stevensc9277 2020
-        </div>    <!-- / footer -->
-    
-    </div>  <!-- / wrapper  -->
-    
-</body>        
+<?php
+    include "bottombit.php";
+?>
