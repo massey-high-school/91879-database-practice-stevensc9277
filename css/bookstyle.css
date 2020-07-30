@@ -27,8 +27,8 @@ body {
 
 .box {
     padding: 20px;
-    border-radius: 10px; 
-    background-color: #8aa1b1;
+    border-radius: 10px; /* Curve edges of boxes */
+    background-color: #8aa1b1;  /* Dark Grayish Blue */
 }
 
 /* Area colouring... */
@@ -39,8 +39,8 @@ body {
 }
 
 /* Set font on dark areas to white */
-.logo, .banner, .side, .footer {
-    color: #fff;
+.logo, .banner, .footer {
+    color: #fff;        /* white */
 }
 
 /* Area specifics */
@@ -52,26 +52,28 @@ body {
 }
 
 .banner {
-    background-color: #474747;
+    background-color: #474747;    /* Very Dark Gray */
     grid-area: banner;
 }
 
-}
+
 
 .side {
     grid-area: side;
-    background-color: #8aa1b1;
+    background-color: #8aa1b1;  /* Dark Grayish Blue */
     color: #000;
+    
 }
 .main {
     grid-area: main;
-    background-color: #93a8ac;  /* very pale grey */
+    background-color: #93a8ac;  /* Dark Grayish cyan */
     border: solid 1px #CCC;
+    font-size: 18px;
 }
 
 
 .footer {
-    background-color: #474747;
+    background-color: #474747;  /* Very Dark Gray */
     grid-area: footer;
     text-align: right;
 }
@@ -118,11 +120,6 @@ a:hover{color: #000;}    /* Black*/
     color: #593849; /* purple */
     font-weight: bold;
 }
-p {
-    font-size: 18px;
-}
-
-
 
 
 
