@@ -35,7 +35,7 @@ body {
 
 /* logo, banner and footer background are the same */
 .logo, .banner, .footer {
-    background-color: #888;  /* dark grey */
+    background-color: #225E81;  /* blue sapphire */
 }
 
 /* Set font on dark areas to white */
@@ -52,7 +52,7 @@ body {
 }
 
 .banner {
-    background-color: #474747;    /* Very Dark Gray */
+    background-color: #225E81;    /* Very Dark Gray */
     grid-area: banner;
 }
 
@@ -60,20 +60,20 @@ body {
 
 .side {
     grid-area: side;
-    background-color: #8aa1b1;  /* Dark Grayish Blue */
+    background-color: #89CEF6;  /* Light blue */
     color: #000;
     
 }
 .main {
     grid-area: main;
-    background-color: #93a8ac;  /* Dark Grayish cyan */
+    background-color: #6EB1D8;  /* Aqua */
     border: solid 1px #CCC;
     font-size: 18px;
 }
 
 
 .footer {
-    background-color: #474747;  /* Very Dark Gray */
+    background-color: #225E81;  /* Blue Sapphire */
     grid-area: footer;
     text-align: right;
 }
@@ -86,12 +86,12 @@ h1, h2, h3, h4 {
 
 /* Navigation Links */
 .nav a {font-weight: bold;}
-.nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
-.nav a:hover {color: #604830; text-decoration: none;} /* chocolate brown */
+.nav a:link, a.side:visited {color: #AA0000;} /*dark red */
+.nav a:hover {color: #604830} /* chocolate brown */
 
 
 /* links in page */
-a {font-weight: bold;}
+a {font-weight: bold; text-decoration: none;}
 a:link{color: #AA0000;} /*dark_red */
 a:visited{color: #111177;} /* dark blue */
 a:hover{color: #000;}    /* Black*/
