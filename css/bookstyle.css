@@ -129,6 +129,16 @@ a:hover{color: #000;}    /* Black*/
     padding: 5px;
 }
 
+/* Error box formatting */
+.error {
+    background-color: ; 
+    border: 2px solid blue; 
+    color: blue;
+    border-radius: 5px; 
+    padding: 20px;
+}
+
+
 /* form formatting */
 
 .search {
