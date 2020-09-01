@@ -1,8 +1,17 @@
 <?php
     include "topbit.php";
+
+// if find button pushed...
+if(isset($_POST['find_title']))
+    
+{
+
+$title = $_POST['title'];
+    
     $showall_sql="SELECT *
 FROM `91879_book_reviews`
-ORDER BY `91879_book_reviews`.`Title` ASC";
+WHERE `Title` LIKE '%hitch%'
+LIMIT 0 , 30";
     $showall_query=mysqli_query($dbconnect, $showall_sql);
     $showall_rs=mysqli_fetch_assoc($showall_query);
     $count=mysqli_num_rows($showall_query);
@@ -65,9 +74,11 @@ ORDER BY `91879_book_reviews`.`Title` ASC";
                  <?php   
                 } // end of 'do'
                 while($showall_rs=mysqli_fetch_assoc($showall_query));
+                
             } //end else
+    
             // if there are results display them
-            
+}  //end isset
             ?>
             </div>
             
