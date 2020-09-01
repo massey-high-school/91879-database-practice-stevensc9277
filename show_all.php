@@ -51,12 +51,11 @@ ORDER BY `91879_book_reviews`.`Title` ASC";
                     ?>
                     
                     </span></p>
+                <p>
+                Review / Response
+                </p>
                 
                 <p><span class="sub_heading"><?php echo $showall_rs['Review']; ?></span></p>
-                
-                <p>
-                Review Placeholder
-                </p>
                 
             </div> <!-- / end results div -->
             <br />

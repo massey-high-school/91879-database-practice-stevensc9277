@@ -61,11 +61,11 @@ LIMIT 0 , 30";
                     
                     </span></p>
                 
-                <p><span class="sub_heading"><?php echo $showall_rs['Review']; ?></span></p>
-                
                 <p>
-                Review Placeholder
+                Review / Response
                 </p>
+                
+                <p><span class="sub_heading"><?php echo $showall_rs['Review']; ?></span></p>
                 
             </div> <!-- / end results div -->
             <br />
