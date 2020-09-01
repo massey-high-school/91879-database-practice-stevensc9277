@@ -9,7 +9,7 @@ ORDER BY `91879_book_reviews`.`Title` ASC";
 
 ?>
         <div class="box main">
-            <h2>All Items</h2>
+            <h2>Title Search</h2>
           <?php
             
             // check if there are any results
