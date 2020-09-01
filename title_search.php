@@ -6,7 +6,7 @@ if(isset($_POST['find_title']))
     
 {
 
-$title = $_POST['title'];
+$title = test_input(mysqli_real_escape_string($dbconnect, $_POST['title']));
     
     $find_sql="SELECT *
 FROM `91879_book_reviews`
