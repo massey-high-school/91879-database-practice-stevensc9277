@@ -98,6 +98,34 @@
             </form>
             <!-- End of genre search -->
             <hr/>
-            Rating Search
+            
+            <!-- Start of ratings here -->
+            <form method="post" action="rating_search.php" enctype="multipart/form-data">
+            
+                <select class="half_width" name="amount">
+                    <option value="exactly" selected>Exactly...</option>
+                    
+                    <option value="more" selected>At least...</option>
+                    
+                    <option value="less" selected>At most...</option>
+                    
+                </select>
+                
+                <select class="half_width" name="stars">
+                    <option value=1>&#9733;</option>
+                    
+                    <option value=2>&#9733; &#9733;</option>
+                    
+                    <option value=3>&#9733; &#9733; &#9733;</option>
+                    
+                    <option value=4>&#9733; &#9733; &#9733; &#9733;</option>
+                    
+                    <option value=5>&#9733; &#9733; &#9733; &#9733; &#9733;</option>
+                
+                </select>
+            
+            
+            
+            </form>
         </div>
         
