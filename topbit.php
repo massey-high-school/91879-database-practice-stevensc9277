@@ -79,7 +79,22 @@
             
             <!-- Start of genre Search -->
             <form method="post" action="genre_search.php"enctype="multipart/form-data">
-                <input class="search" type="text" name="genre" size="40" value="" required placeholder="Genre..." />
+                <select name="genre" required>
+                    
+	           <option value="" disabled selected>Genre...</option>
+                    
+	           <option value="Sci Fi">Science Fiction</option>
+                    
+                <option value="Sci Fi">Science Fiction</option>
+                
+                <option value="Non Fiction ">Non Fiction</option>
+                    
+                <option value="Humour">Humour</option>
+                    
+                <option value="Historical Fiction">Historical Fiction</option>
+                    
+                </select>
+
                 
                 <input class="submit" type="submit" name="find_genre" value="Search" />
             </form>
