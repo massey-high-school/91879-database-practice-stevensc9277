@@ -70,7 +70,7 @@
             <hr />
             <!-- Start of author Search -->
             <form method="post" action="author_search.php"enctype="multipart/form-data">
-                <input class="search" type="text" name="author" size="40" value="" required placeholder="author..." />
+                <input class="search" type="text" name="author" size="40" value="" required placeholder="Author..." />
                 
                 <input class="submit" type="submit" name="find_author" value="Search" />
             </form>
