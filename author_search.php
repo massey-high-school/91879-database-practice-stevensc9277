@@ -42,7 +42,7 @@ LIMIT 0 , 30";
                 <!-- Results go here -->
             <div class="results">
             
-                <p>Title: <span class="sub_heading"><?php echo $find_rs['author']; ?></span></p>
+                <p>Title: <span class="sub_heading"><?php echo $find_rs['Title']; ?></span></p>
                 
                 <p>Author: <span class="sub_heading"><?php echo $find_rs['Author']; ?></span></p>
                 
