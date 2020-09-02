@@ -67,7 +67,7 @@
                 <input class="submit" type="submit" name="find_title" value="Search" />
             </form>
             <!-- End of title search -->
-            
+            <hr />
             <!-- Start of author Search -->
             <form method="post" action="author_search.php"enctype="multipart/form-data">
                 <input class="search" type="text" name="author" size="40" value="" required placeholder="author..." />
