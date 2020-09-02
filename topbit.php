@@ -83,8 +83,6 @@
                     
 	           <option value="" disabled selected>Genre...</option>
                     
-	           <option value="Sci Fi">Science Fiction</option>
-                    
                 <option value="Sci Fi">Science Fiction</option>
                 
                 <option value="Non Fiction ">Non Fiction</option>
