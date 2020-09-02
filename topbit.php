@@ -123,8 +123,10 @@
                     <option value=5>&#9733; &#9733; &#9733; &#9733; &#9733;</option>
                 
                 </select>
-            
-            
+                
+                    <input class="submit" type="submit" name="find_genre" value="Search" />
+                
+            <!-- End of ratings search here -->
             
             </form>
         </div>
