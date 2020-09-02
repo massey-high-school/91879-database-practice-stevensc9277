@@ -124,7 +124,7 @@
                 
                 </select>
                 
-                    <input class="submit" type="submit" name="find_genre" value="Search" />
+                    <input class="submit" type="submit" name="find_rating" value="Search" />
                 
             <!-- End of ratings search here -->
             
