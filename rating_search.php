@@ -17,7 +17,7 @@ WHERE `Rating` = $stars
 LIMIT 0 , 30";  
 }
   
-elseif ($amount = "less")
+elseif ($amount == "less")
     
 {
     $find_sql="SELECT *
