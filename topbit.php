@@ -103,11 +103,12 @@
             <form method="post" action="rating_search.php" enctype="multipart/form-data">
             
                 <select class="half_width" name="amount">
-                    <option value="exactly" selected>Exactly...</option>
                     
                     <option value="more" selected>At least...</option>
                     
                     <option value="less" selected>At most...</option>
+                    
+                     <option value="exactly" selected>Exactly...</option>
                     
                 </select>
                 

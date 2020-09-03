@@ -13,19 +13,34 @@ if ($amount=="exactly")
 {
     $find_sql="SELECT *
 FROM `91879_book_reviews`
-WHERE `genre` LIKE '%$genre%'
-LIMIT 0 , 30";
+WHERE `Rating` = $stars
+LIMIT 0 , 30";  
+}
+  
+elseif ($amount = "less")
     
+{
+    $find_sql="SELECT *
+FROM `91879_book_reviews`
+WHERE `Rating` <= $stars
+LIMIT 0 , 30"; 
 }
     
+else
+{
+    $find_sql="SELECT *
+FROM `91879_book_reviews`
+WHERE `Rating` >= $stars
+LIMIT 0 , 30"; 
+}
     
-    $find_query=mysqli_query($dbconnect, $find_sql);
-    $find_rs=mysqli_fetch_assoc($find_query);
-    $count=mysqli_num_rows($find_query);
+$find_query=mysqli_query($dbconnect, $find_sql);
+$find_rs=mysqli_fetch_assoc($find_query);
+$count=mysqli_num_rows($find_query);
 
 ?>
         <div class="box main">
-            <h2>Genre Search</h2>
+            <h2>Rating Search</h2>
           <?php
             
             // check if there are any results
