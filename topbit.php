@@ -29,7 +29,7 @@
     
     <!-- Edit the link below / replace with your chosen google font -->
     <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
-    
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
     <!-- Edit the name of your style sheet - 'foo' is not a valid name!! -->
     <link rel="stylesheet" href="css/bookstyle.css"> 
     
@@ -64,7 +64,7 @@
             <form method="post" action="title_search.php"enctype="multipart/form-data">
                 <input class="search" type="text" name="title" size="40" value="" required placeholder="Title..." />
                 
-                <input class="submit" type="submit" name="find_title" value="Search" />
+                <input class="submit" type="submit" name="find_title" value="&#xf002;" />
             </form>
             <!-- End of title search -->
             <hr />
@@ -72,7 +72,7 @@
             <form method="post" action="author_search.php"enctype="multipart/form-data">
                 <input class="search" type="text" name="author" size="40" value="" required placeholder="Author..." />
                 
-                <input class="submit" type="submit" name="find_author" value="Search" />
+                <input class="submit" type="submit" name="find_author" value="&#xf002;" />
             </form>
             <!-- End of author search -->
             <hr />
@@ -94,7 +94,7 @@
                 </select>
 
                 
-                <input class="submit" type="submit" name="find_genre" value="Search" />
+                <input class="submit" type="submit" name="find_genre" value="&#xf002;" />
             </form>
             <!-- End of genre search -->
             <hr/>
@@ -125,7 +125,7 @@
                 
                 </select>
                 
-                    <input class="submit" type="submit" name="find_rating" value="Search" />
+                    <input class="submit" type="submit" name="find_rating" value="&#xf002;" />
                 
             <!-- End of ratings search here -->
             
