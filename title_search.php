@@ -62,7 +62,7 @@ LIMIT 0 , 30";
                     </span></p>
                 
                 <p>
-                Review / Response
+                Review / Response:
                 </p>
                 
                 <p><span class="sub_heading"><?php echo $find_rs['Review']; ?></span></p>

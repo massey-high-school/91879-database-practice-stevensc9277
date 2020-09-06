@@ -84,7 +84,7 @@ $count=mysqli_num_rows($find_query);
                     </span></p>
                 
                 <p>
-                Review / Response
+                Review / Response:
                 </p>
                 
                 <p><span class="sub_heading"><?php echo $find_rs['Review']; ?></span></p>
