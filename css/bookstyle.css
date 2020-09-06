@@ -174,8 +174,8 @@ input {
     box-sizing: border-box;
 }
 
-.half-width {
-    width: 99px;
+.half_width {
+    width: 74px;
 }
 
 select {
