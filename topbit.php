@@ -75,7 +75,7 @@
                 <input class="submit" type="submit" name="find_author" value="&#xf002;" />
             </form>
             <!-- End of author search -->
-            <hr />
+
             
             <!-- Start of genre Search -->
             <form method="post" action="genre_search.php"enctype="multipart/form-data">
