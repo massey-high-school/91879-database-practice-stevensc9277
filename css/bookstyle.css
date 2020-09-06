@@ -68,7 +68,7 @@ body {
     grid-area: main;
     background-color: #6EB1D8;  /* Aqua */
     border: solid 1px #CCC;  /* grey */
-    font-size: 18px;
+    font-size: 100%;
 }
 
 
@@ -149,6 +149,7 @@ form {
     width: 150px;
     padding: 8px 15px;
     background: #fff;  /* white */
+    color: #000;
 }
 
 .submit {
