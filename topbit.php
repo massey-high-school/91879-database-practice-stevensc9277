@@ -94,7 +94,7 @@
                 </select>
 
                 
-                <input class="submit" type="submit" name="find_genre" value="&#xf002;" />
+                <input class="submit" type="submit" name="find_genre" value="&#xf002;" />  
             </form>
             <!-- End of genre search -->
             <hr/>
