@@ -3,6 +3,7 @@
 ?>
         <div class="box main">
             <h2>Welcome</h2>
+ 
             
     <p>
 
@@ -20,7 +21,7 @@ If you'd like to suggest a book for review, please feel free to get in touch.
             </p>
             
         </div>    <!-- / main -->
-        
+
 <?php
     include "bottombit.php";
 ?>

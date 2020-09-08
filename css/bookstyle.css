@@ -123,7 +123,7 @@ a:hover{color: #000;}    /* Black*/
 
 /* Results Box Formatting */
 .results {
-    background-color: #5DA1D5;      /* Light blue */
+    background-color: #72BFFE;      /* Maya blue */
     border-radius: 10px;
     border: 1px solid #000; /* black */
     padding: 5px;
@@ -186,7 +186,6 @@ select {
     color: #878787;  /* grey */
     width: 150px;
 }
-
 
 
 
